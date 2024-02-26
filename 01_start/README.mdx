@@ -1,10 +1,21 @@
-export const metadata = {
-	type: "creation_of_the_network",
+export const meta = {
+	title: "Sum two numbers",
+	description: "Given two numbers, write the implementation that returns the sum of the two numbers.",
+	slug: "sum-two-numbers",
 }
 
 # Sum two numbers
 
 Given two numbers, write the implementation that returns the sum of the two numbers.
+
+
+```json
+{
+	"num1": 1,
+	"num2": 2
+}
+```
+
 
 <Hint title="Hint 1">
 Hint1
@@ -12,7 +23,7 @@ Hint1
 
 
 <Hint title="Hint 2">
-Hint2
+Hint2 Test
 </Hint>
 
 <Hint title="Hint 3">
@@ -20,6 +31,6 @@ Hint3
 </Hint>
 
 
-<Check title="Check" executor="shell">
+<Check id="bun_test" title="Check" executor="shell">
 bun test
 </Check>
